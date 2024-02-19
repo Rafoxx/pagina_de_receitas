@@ -1,0 +1,143 @@
+/* medidas */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 8000px;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* imagem */
+.imagem {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* titulo */
+.titulo {
+    text-align: center;
+    font-size: 20px;
+}
+.titulo h1 {
+    color: #a06c3f;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.titulo p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* ingredientes */
+#ingredientes {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#ingredientes h3 {
+    color:#a06c3f;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ingredientes li {
+    margin-bottom: 10px;
+}
+
+/* modo de preparo */
+#preparo {
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#preparo h3 {
+    color:#a06c3f;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#preparo2 p {
+    color: rgb(175, 77, 179);
+}
+
+/* estilos das listas */
+ul,ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* informações nutricionais */
+#nutrição {
+    background-color: rgb(247, 247, 221);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+#nutrição h3 {
+    color:#a06c3f;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table th, table td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#nutrição p {
+    color: #a06c3f;
+}
+
+/* estilizar marcador */
+li::marker {
+    color: #a06c3f;
+}
+
+@media only screen and (max-width: 600px){
+    .container {
+        padding: 10px;
+    }
+    .titulo h1 {
+        font-size: 20px;
+    }
+    .titulo p {
+        font-size: 16px;
+    }
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
